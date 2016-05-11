@@ -29,8 +29,8 @@ p#p3{
 
 #entete{
 	display: block;
-	width: 30em;
-	height: 15em;
+	width: 300px;
+	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/logo-iut2.jpg);
@@ -75,20 +75,20 @@ td{
     background: url(images/my-icon.png) no-repeat;
   }
 }*/
-/*
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
  only screen and (-o-min-device-pixel-ratio: 2),
  only screen and (min--moz-device-pixel-ratio: 2),
  only screen and (min-device-pixel-ratio: 2) {
-/*entete{
+entete{
     background-image: url(../images/logo-iut.jpg);
-    /* nouvelle image de 60px par 60px 
+    /* nouvelle image de 60px par 60px */
     background-size: 50% auto;
     background-repeat: no-repeat;
     width: 300px;
   }
 
-}*/
+}
 
 
 

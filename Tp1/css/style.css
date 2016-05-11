@@ -19,6 +19,11 @@ p#p3{
     img{
     	width: 100%;
     }
+
+    p{
+    	font-size: 0.8em;
+    	width: 100%;
+    }
 }
 
 

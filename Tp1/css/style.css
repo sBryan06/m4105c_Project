@@ -70,6 +70,7 @@ p#p3{
     background-image: url(../images/logo-iut.jpg);
     /* nouvelle image de 60px par 60px */
     background-size: 50% auto;
+    background-repeat: no-repeat;
   }
 
 }

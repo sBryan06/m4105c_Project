@@ -69,7 +69,7 @@ p#p3{
    #entete{
     background-image: url(../images/logo-iut.jpg);
     /* nouvelle image de 60px par 60px */
-    background-size: 100%;
+    background-size: 100% auto;
   }
 
 }

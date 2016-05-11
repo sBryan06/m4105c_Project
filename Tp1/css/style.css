@@ -67,7 +67,7 @@ p#p3{
  only screen and (min-device-pixel-ratio: 1.5) {
 
    #entete{
-    background-image: url(images/logo-iut.jpg);
+    background-image: url(../images/logo-iut.jpg);
     /* nouvelle image de 60px par 60px */
     background-size: 100%;
   }

@@ -3,3 +3,23 @@
    zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
 }
 
+p#p1{
+	background-color:#3498db;
+}
+
+p#p2{
+	background-color:#ecf0f1;
+}
+p#p3{
+	background-color:#e74c3c;
+}
+
+@media screen and (max-width: 480px){
+    /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
+    img{
+    	width: 100%;
+    }
+}
+
+
+

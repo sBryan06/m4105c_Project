@@ -65,6 +65,21 @@ td{
     	font-size: 0.8em;
     	width: 100%;
     }
+
+    table{
+      width: 100%;
+    }
+    tr{
+      display: block;
+      width: 100%;
+    }
+    th{
+      width: 100%;
+    }
+    td{
+      display: block;
+      width: 100%;
+    }
 }
 
 /*@media only screen and (-webkit-max-device-pixel-ratio: 1.5),

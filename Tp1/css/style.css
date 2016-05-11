@@ -65,11 +65,13 @@ p#p3{
  only screen and (-o-min-device-pixel-ratio: 3/2),
  only screen and (min--moz-device-pixel-ratio: 1.5),
  only screen and (min-device-pixel-ratio: 1.5) {
+
    #entete{
     background-image: url(images/logo-iut.jpg);
     /* nouvelle image de 60px par 60px */
-    background-size: 300px;
+    background-size: 100%;
   }
+
 }
 
 

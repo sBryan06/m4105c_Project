@@ -37,6 +37,20 @@ p#p3{
 	background-size: 100%;
 }
 
+/* tableau */
+table{
+  margin: 20px 0px 20px 0px;
+  border: 1px solid black;
+}
+
+th{
+  background-color: grey;
+  border:1px solid black;
+}
+
+td{
+  border: 1px solid black;
+}
 @media screen and (max-width: 480px){
     /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
     img{
@@ -71,9 +85,12 @@ p#p3{
     /* nouvelle image de 60px par 60px */
     background-size: 50% auto;
     background-repeat: no-repeat;
+    width: 300px;
   }
 
 }
+
+
 
 
 

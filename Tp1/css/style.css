@@ -19,7 +19,7 @@ p#p3{
 
 #entete{
 	background-image: url(../images/logo-iut.jpg);
-	background-size: 300/16em;
+	/*background-size: 300/16em;*/
 }
 
 @media screen and (max-width: 480px){

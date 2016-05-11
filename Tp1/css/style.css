@@ -23,6 +23,7 @@ h1#testPx{
   font-size: 25px;
 }
 p#p1{
+
 	/*background-color:#3498db;*/
   background-image: url(../images/bg.jpg);
   background-size: cover;
@@ -50,6 +51,7 @@ table{
   margin: 20px 0px 20px 0px;
   border: 1px solid black;
   font-size: 0.8rem;
+  text-align: center;
 }
 
 th{
@@ -79,8 +81,8 @@ td{
       width: 100%;
     }
     tr{
-      display: block;
       width: 100%;
+      display: block;
     }
     th{
       width: 100%;

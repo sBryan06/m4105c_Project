@@ -14,6 +14,11 @@ p#p3{
 	background-color:#e74c3c;
 }
 
+#entete{
+	background-image: url(images/logo-iut.jpg);
+	background-size: 300/16em;
+}
+
 @media screen and (max-width: 480px){
     /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
     img{

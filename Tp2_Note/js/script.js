@@ -17,7 +17,7 @@ function erreurPosition(error) {
     	info += "Erreur inconnue";
     break;
     }
-document.getElementById("infoposition").innerHTML = info;
+document.getElementById("localisation").innerHTML = info;
 }
 
 function maPosition(position) {

@@ -60,9 +60,11 @@
 	<section id="localisation">
 
 		<h2>Localisation</h2>
-		<div id="position"></div>
+		<div id="position">
+			<!-- div pour afficher mes coordonnées ou les erreurs -->
+		</div>
 		<div id="map">
-			
+			<!-- div pour la carte google map -->
 		</div>
 	</section>
 
@@ -73,28 +75,20 @@
 	
 	
 	<form >
-		<label for="prenom" > Nom: </label>
+		<label for="prenom" > Prenom: </label>
 		<input type="text" name="prenom" placeholder="Ex: Alex"/> </br>
 		<label for="nom" > Nom: </label>
 		<input type="text" name="nom" placeholder="Ex: Térieur"/> </br>
 		<label for="dateNaissance" > Date de naissance </label>
 		<input type="date" name="dateNaissance" placeholder="JJ/MM/AAAA"/> </br>
-		<label for="lieuNaissance" > Nom: </label>
+		<label for="lieuNaissance" > Lieu de : </label>
 		<input type="text" name="lieuNaissance" placeholder="Ex: Calais"/> </br>
-		<label for="age" > Age </label>
-		<input type="number" name="age" placeholder="Age"/> </br>
-		<label for="pageFB" > Page facebook </label>
-		<input type="text" name="pageFB" placeholder="NOM Prenom"/> </br>
 		<label for="mail" > E-mail </label>
 		<input type="email" name="mail" placeholder="exemple@gmail.com"/> </br>
-		<label for="tel" > Téléphone </label>
-		<input type="tel" name="tel" placeholder="0611223344"/> </br>
-	</form>
-
-	<form action="#" method="post" enctype="multipart/form-data"> 
-    	<!-- Pour une image (appareil photo) --> 
-    	<input type="file" name="image" accept="image/*" capture> 
-    	<input type="submit" value="Upload"> 
+		<label for="image" > Photo </label>
+		<input type="file" name="image" accept="image/*" capture>
+		<textarea name="message" placeholder="Message"></textarea>
+		<input type="submit" name="envoyer" value="Envoyer" /> 
 	</form>
 
 </body>

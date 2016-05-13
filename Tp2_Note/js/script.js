@@ -45,5 +45,7 @@ function maPosition(position) {
 }
 
 if(navigator.geolocation){
-  navigator.geolocation.getCurrentPosition(maPosition, erreurPosition,{enableHighAccuracy:true});
+  navigator.geolocation.getCurrentPosition(maPosition, 
+    erreurPosition,{enableHighAccuracy:true}
+    );
  }

@@ -26,7 +26,7 @@ function maPosition(position) {
   var latze = position.coords.latitude;
   var longze = position.coords.longitude;
   infopos += "Longitude: "+position.coords.longitude+"\n";
-  document.getElementById("infoposition").innerHTML = infopos;
+  document.getElementById("localisation").innerHTML = infopos;
   
   var myLatLng = {lat: latze, lng: longze};
 

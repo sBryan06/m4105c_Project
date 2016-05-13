@@ -7,6 +7,8 @@
  <link rel="stylesheet" href="css/style.css">
  <link rel="text/javascript" type="text/css" href="js">
  <script type="text/javascript" src="js/script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCacZjx6BNLTZnAYs2-YhCXI8tgyFXeq8c&callback=initMap"
+  type="text/javascript"></script>
 
 </head>
 <body>
@@ -61,9 +63,16 @@
 			
 		</div>
 	</section>
+
+	<section id="formulaire">
+		<h2>Formulaire</h2>
+
+	</section>
 	
-	<!--
+	
 	<form >
+		<label for="nom" > Nom: </label>
+		<input type="text" name="nom" placeholder="Ex: Albert"/> </br>
 		<label for="nom" > Nom: </label>
 		<input type="text" name="nom" placeholder="Ex: Albert"/> </br>
 		<label for="dateNaissance" > Date de naissance </label>
@@ -77,8 +86,12 @@
 		<label for="tel" > Téléphone </label>
 		<input type="tel" name="tel" placeholder="0611223344"/> </br>
 	</form>
-	-->
 
+	<form action="..." method="post" enctype="multipart/form-data"> 
+    	<!-- Pour une image (appareil photo) --> 
+    	<input type="file" name="image" accept="image/*" capture> 
+    	<input type="submit" value="Upload"> 
+	</form>
 
 </body>
 </html>

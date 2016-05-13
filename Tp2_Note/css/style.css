@@ -1,0 +1,95 @@
+@viewport {
+   width: device-width; /* largeur du viewport */
+   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+}
+
+html {
+	font-size: 10px;
+}
+
+body{
+	margin: 0em;
+
+}
+
+*{
+  font-size: 1.6rem;
+}
+
+header{
+  width: 100%;
+  height: 4em;
+  line-height: 4em;
+  background-color: gray;
+}
+
+header #logo{
+  width: 50px;
+  height: 50px;
+  background-image: url(../images/monkey2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+/* --- MENU --- */
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width:30%;
+  /*height: 5rem;*/
+}
+
+li {
+    float: left;
+    width:33.333%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4aa3df;
+}
+/* --- FIN MENU --- */
+
+
+h1{
+	font-size: 2.5rem;
+}
+
+
+@media screen and (max-width: 480px){
+    /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+ only screen and (-o-min-device-pixel-ratio: 2),
+ only screen and (min--moz-device-pixel-ratio: 2),
+ only screen and (min-device-pixel-ratio: 2) {
+entete{
+    background-image: url(../images/logo-iut.jpg);
+    /* nouvelle image de 60px par 60px */
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    width: 300px;
+  }
+
+}
+
+
+
+
+

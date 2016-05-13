@@ -9,6 +9,7 @@ html {
 
 body{
 	margin: 0em;
+  width: 100%;
   background-color: #2980b9;
 
 }
@@ -102,7 +103,7 @@ li a:hover:not(.active) {
 
 #banniere{
   width: 100%;
-  height: 25em;
+  height: 18em;
   background-image: url(../images/mer-du-nord.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -117,12 +118,19 @@ section.matos{
   display: inline-block;
   vertical-align:top;
   width: 24%;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   padding: 0.2em;
 }
+section.matos p{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* --- Maps --- */
 section#localisation #map{
-  width: 40em;
+  width: 85%;
   height: 30em;
 }
 /* --- FIN MAPS --- */
@@ -130,8 +138,10 @@ section#localisation #map{
 section#localisation, section#formulaire{
   display: inline-block;
   vertical-align:top;
-  width: 45em;
+  width: 45%;
   height: 40em;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1{
 	font-size: 2.5rem;

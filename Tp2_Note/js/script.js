@@ -1,6 +1,3 @@
-/**
- * Created by sbryan06 on 13/05/2016!
- */
 function erreurPosition(error) {
     var info = "Erreur lors de la géolocalisation : ";
     switch(error.code) {
@@ -17,7 +14,7 @@ function erreurPosition(error) {
     	info += "Erreur inconnue";
     break;
     }
-document.getElementById("localisation").innerHTML = info;
+document.getElementById("position").innerHTML = info;
 }
 
 function maPosition(position) {
@@ -26,7 +23,7 @@ function maPosition(position) {
   var latze = position.coords.latitude;
   var longze = position.coords.longitude;
   infopos += "Longitude: "+position.coords.longitude+"\n";
-  document.getElementById("localisation").innerHTML = infopos;
+  document.getElementById("position").innerHTML = infopos;
   
   var myLatLng = {lat: latze, lng: longze};
 

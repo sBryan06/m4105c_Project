@@ -65,8 +65,8 @@ li a:hover:not(.active) {
 /* --- FIN MENU --- */
 
 section#localisation #map{
-  width: 50em;
-  height: 50em;
+  width: 40em;
+  height: 30em;
 }
 
 h1{

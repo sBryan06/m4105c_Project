@@ -33,7 +33,7 @@ header #logo{
   width: 6em;
   height: 4em;
   background-image: url(../images/logo.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -68,6 +68,16 @@ header nav ul li:not(.separator){
 header nav ul li a {
     text-align: center;
     text-decoration: none;
+}
+section#recherche{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+header section#recherche input[type="search"] {
+    display: block;
+   -webkit-appearance: textfield;
+   -webkit-box-sizing: content-box;
 }
 
 
@@ -157,6 +167,12 @@ input{
   width: 12em;
 }
 /* --- FIN formulaire ---*/
+
+footer{
+  vertical-align: middle;
+  text-align: center;
+  border-top: 2px solid black;
+}
 
 @media screen and (max-width: 480px){
     /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */

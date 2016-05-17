@@ -72,10 +72,11 @@ header nav ul li a {
 section#recherche{
   display: inline-block;
   height: 100%;
-  vertical-align: middle;
+  vertical-align: top;
 }
 header section#recherche input[type="search"] {
     display: block;
+    vertical-align: middle;
    -webkit-appearance: textfield;
    -webkit-box-sizing: content-box;
 }

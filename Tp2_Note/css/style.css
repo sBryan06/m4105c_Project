@@ -146,12 +146,8 @@ section.matos p{
   margin-left: auto;
   margin-right: auto;
 }
-/* --- Maps --- */
-section#localisation #map{
-  width: 85%;
-  height: 30em;
-}
-/* --- FIN MAPS --- */
+
+/* --- MAPS && LOCALISATIN --- */
 
 section#localisation, section#formulaire{
   display: inline-block;
@@ -161,6 +157,18 @@ section#localisation, section#formulaire{
   margin-left: auto;
   margin-right: auto;
 }
+
+/* --- Maps --- */
+section#localisation{
+  margin-left: 5%;
+}
+section#localisation #map{
+  width: 85%;
+  height: 30em;
+}
+/* --- FIN MAPS --- */
+
+
 h1{
 	font-size: 2.5rem;
 }
@@ -170,13 +178,40 @@ h2{
 }
 
 /* --- Formulaire --- */
-section#formulaire input{
+section#formulaire input, section#formulaire textarea{
+  display: inline-block;
   margin-bottom: 1.5em;
   padding-left: 0.5em;
   width: 15em;
 }
 
-section#formulaire input#nom{
+section#formulaire input#prenom,
+section#formulaire input#nom,
+section#formulaire input#dateNaissance,
+section#formulaire input#lieuNaissance
+{
+  width: 40%;
+}
+
+section#formulaire input#nom,
+section#formulaire input#lieuNaissance{
+  margin-left: 5%;
+}
+
+section#formulaire input#mail,
+section#formulaire input#image{
+  width: 85%;
+}
+
+section#formulaire textarea{
+  width: 85%;
+  margin-bottom: 1.5em;
+}
+
+section#formulaire #envoyer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* --- FIN formulaire ---*/
 

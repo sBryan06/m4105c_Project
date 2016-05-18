@@ -161,6 +161,7 @@ section#localisation, section#formulaire{
 /* --- Maps --- */
 section#localisation{
   margin-left: 5%;
+  border-right: 2px solid black;
 }
 section#localisation #map{
   width: 85%;
@@ -180,6 +181,7 @@ h2{
 /* --- Formulaire --- */
 section#formulaire{
   text-align: center;
+  margin-left: 1em;
 }
 
 section#formulaire h2{

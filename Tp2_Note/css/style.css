@@ -153,7 +153,7 @@ section#localisation, section#formulaire{
   display: inline-block;
   vertical-align:top;
   width: 45%;
-  height: 40em;
+  height: 30em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -164,7 +164,7 @@ section#localisation{
 }
 section#localisation #map{
   width: 85%;
-  height: 30em;
+  height: 20em;
 }
 /* --- FIN MAPS --- */
 
@@ -178,6 +178,14 @@ h2{
 }
 
 /* --- Formulaire --- */
+section#formulaire{
+  text-align: center;
+}
+
+section#formulaire h2{
+  text-align: left;
+}
+
 section#formulaire input, section#formulaire textarea{
   display: inline-block;
   margin-bottom: 1.5em;

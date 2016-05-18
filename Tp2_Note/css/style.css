@@ -236,9 +236,20 @@ footer{
 
 @media screen and (min-width:480px) and (max-width: 800px){
     /* Ici du code s'appliquant aux écrans de moins de 800 pixels de large */
+    header{
+      text-align: center;
+    }
     header #logo{
       display: block;
+      background-position: center;
+      float: none;
     }
+
+    section.matos{
+      width: 48%;
+    }
+
+  
 }
 
 

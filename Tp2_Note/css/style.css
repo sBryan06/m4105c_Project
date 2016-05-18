@@ -24,15 +24,19 @@ header{
   height: 5em;
   line-height: 5em;
   background-color: gray;
-  text-align: center;
+  text-align: right;
   vertical-align: middle;
 }
 
+
 header #logo{
   display: inline-block;
+  float: left;
+  margin: 0.5em 05em 05em 2em;
   width: 6em;
   height: 4em;
   background-image: url(../images/logo.jpg);
+  background-position: left center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -40,10 +44,11 @@ header #logo{
 /* --- MENU --- */
 header nav{
   display: inline-block;
+  vertical-align: middle;
   width:20%;
+  margin-right: 2em;
 }
 header nav ul{
-  /*display: block;*/
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -70,12 +75,14 @@ header nav ul li a {
     text-decoration: none;
 }
 section#recherche{
+  width: 10em;
+  margin-right: 5em;
   display: inline-block;
   height: 100%;
-  vertical-align: top;
+  vertical-align: middle;
 }
 header section#recherche input[type="search"] {
-    display: block;
+    display: inline-block;
     vertical-align: middle;
    -webkit-appearance: textfield;
    -webkit-box-sizing: content-box;
@@ -163,17 +170,24 @@ h2{
 }
 
 /* --- Formulaire --- */
-input{
-  display: inline-block;
-  width: 12em;
+section#formulaire input{
+  margin-bottom: 1.5em;
+  padding-left: 0.5em;
+  width: 15em;
+}
+
+section#formulaire input#nom{
 }
 /* --- FIN formulaire ---*/
 
+
+/* --- FOOTER --- */
 footer{
   vertical-align: middle;
   text-align: center;
   border-top: 2px solid black;
 }
+/* --- FIN FOOTER --- */
 
 @media screen and (max-width: 480px){
     /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */

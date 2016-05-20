@@ -25,7 +25,6 @@ header{
   line-height: 5em;
   background-color: grey;
   text-align: right;
-  vertical-align: middle;
 }
 
 
@@ -238,18 +237,43 @@ footer{
     /* Ici du code s'appliquant aux écrans de moins de 800 pixels de large */
     header{
       text-align: center;
+      height: auto;
+      padding-top: 1em;
     }
     header #logo{
+      float: none;
       display: block;
       background-position: center;
-      float: none;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 0em;
+      margin-bottom: -1em;
     }
 
     section.matos{
       width: 48%;
     }
 
-  
+    section#localisation{
+      width: 50%;
+    }
+    
+    section#formulaire{
+      width: 40%;
+    }
+
+    section#formulaire input{
+      display: block;
+      width: 90%;
+    }
+
+    section#formulaire input#prenom,
+    section#formulaire input#nom,
+    section#formulaire input#dateNaissance,
+    section#formulaire input#lieuNaissance
+    {
+      width: 90%;
+    }
 }
 
 

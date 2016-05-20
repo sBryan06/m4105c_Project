@@ -165,6 +165,8 @@ section#localisation{
 section#localisation #map{
   width: 85%;
   height: 20em;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* --- FIN MAPS --- */
 

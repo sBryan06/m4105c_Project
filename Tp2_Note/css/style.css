@@ -139,6 +139,7 @@ section.matos{
   margin-right: auto;
   text-align: center;
   padding: 0.2em;
+  margin-bottom: 2em;
 }
 section.matos p{
   width: 80%;
@@ -160,7 +161,6 @@ section#localisation, section#formulaire{
 /* --- Maps --- */
 section#localisation{
   margin-left: 5%;
-  border-right: 2px solid black;
 }
 section#localisation #map{
   width: 85%;
@@ -170,7 +170,7 @@ section#localisation #map{
 
 
 h1{
-	font-size: 2.5rem;
+	font-size: 2.5em;
 }
 
 h2{
@@ -181,6 +181,8 @@ h2{
 section#formulaire{
   text-align: center;
   margin-left: 1em;
+  border-left: 2px solid black;
+  padding-left: 2em;
 }
 
 section#formulaire h2{
@@ -233,7 +235,7 @@ footer{
 }
 /* --- FIN FOOTER --- */
 
-@media screen and (min-width:480px) and (max-width: 800px){
+@media screen and (min-width:600px) and (max-width: 800px){
     /* Ici du code s'appliquant aux écrans de moins de 800 pixels de large */
     header{
       text-align: center;
@@ -255,24 +257,38 @@ footer{
     }
 
     section#localisation{
-      width: 50%;
+      width: 45%;
     }
     
     section#formulaire{
       width: 40%;
+      height: auto;
     }
 
-    section#formulaire input{
+    /*section#formulaire input{
       display: block;
       width: 90%;
-    }
+    }*/
 
     section#formulaire input#prenom,
     section#formulaire input#nom,
     section#formulaire input#dateNaissance,
-    section#formulaire input#lieuNaissance
+    section#formulaire input#lieuNaissance,
+    section#formulaire input#mail,
+    section#formulaire input#image,
+    section#formulaire input#envoyer,
+    section#formulaire textarea
     {
-      width: 90%;
+      width: 95%;
+    }
+
+    section#formulaire input#nom,
+    section#formulaire input#lieuNaissance{
+      margin-left: 0%;
+    }
+
+    section#formulaire input#image{
+      font-size: 0.8em;
     }
 }
 

@@ -165,8 +165,6 @@ section#localisation{
 section#localisation #map{
   width: 85%;
   height: 20em;
-  margin-left: auto;
-  margin-right: auto;
 }
 /* --- FIN MAPS --- */
 
@@ -237,7 +235,7 @@ footer{
 }
 /* --- FIN FOOTER --- */
 
-@media screen and (min-width:600px) and (max-width: 800px){
+@media screen and (min-width:480px) and (max-width: 800px){
     /* Ici du code s'appliquant aux écrans de moins de 800 pixels de large */
     header{
       text-align: center;

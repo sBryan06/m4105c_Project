@@ -73,7 +73,7 @@ header nav ul li a {
     text-align: center;
     text-decoration: none;
 }
-section#recherche{
+header section#recherche{
   width: 10em;
   margin-right: 5em;
   display: inline-block;
@@ -289,6 +289,33 @@ footer{
 
     section#formulaire input#image{
       font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 800px){
+    /* Ici du code s'appliquant aux écrans de moins de 800 pixels de large */
+    header{
+      text-align: center;
+      height: auto;
+      padding-top: 1em;
+    }
+
+    header #logo{
+      float: none;
+      display: block;
+      background-position: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 0em;
+      margin-bottom: -1em;
+    }
+
+    header nav{
+      display: none;
+    }
+
+    header section#recherche{
+      display: none;
     }
 }
 

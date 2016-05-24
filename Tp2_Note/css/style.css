@@ -320,19 +320,19 @@ footer{
     }
 
     section.matos{
-      width: 98%;
+      width: 90%;
     }
 
     section#localisation{
-      width: 95%;
+      width: 90%;
     }
     
     section#formulaire{
-      width: 85%;
+      width: 90%;
       height: auto;
       border:none;
-      padding-left: 1em;
-      margin-left: 0px;
+      padding-left: 0em;
+      margin-left: 1em;
     }
 
     /*section#formulaire input{

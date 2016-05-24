@@ -292,7 +292,7 @@ footer{
     }
 }
 
-@media screen and (min-width:480px) and (max-width: 800px){
+@media screen and (max-width:480px){
     /* Ici du code s'appliquant aux écrans de moins de 800 pixels de large */
     header{
       text-align: center;

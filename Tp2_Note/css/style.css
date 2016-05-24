@@ -323,8 +323,41 @@ footer{
       width: 98%;
     }
 
+    section#localisation{
+      width: 95%;
+    }
+    
     section#formulaire{
+      width: 95%;
+      height: auto;
       border:none;
+      margin-left: 0.1em;
+    }
+
+    /*section#formulaire input{
+      display: block;
+      width: 90%;
+    }*/
+
+    section#formulaire input#prenom,
+    section#formulaire input#nom,
+    section#formulaire input#dateNaissance,
+    section#formulaire input#lieuNaissance,
+    section#formulaire input#mail,
+    section#formulaire input#image,
+    section#formulaire input#envoyer,
+    section#formulaire textarea
+    {
+      width: 95%;
+    }
+
+    section#formulaire input#nom,
+    section#formulaire input#lieuNaissance{
+      margin-left: 0%;
+    }
+
+    section#formulaire input#image{
+      font-size: 0.8em;
     }
 }
 

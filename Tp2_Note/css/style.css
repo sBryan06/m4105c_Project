@@ -318,6 +318,14 @@ footer{
     header section#recherche{
       display: none;
     }
+
+    section.matos{
+      width: 98%;
+    }
+
+    section#formulaire{
+      border:none;
+    }
 }
 
 

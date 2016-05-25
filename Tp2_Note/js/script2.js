@@ -55,7 +55,7 @@ if(navigator.geolocation){
 $(document).ready(function(){
 
   $("#bouton").click(function(){
-    $("#menuTel").css("display","block");
+    $("header nav").css("display","block");
   });
 
 });

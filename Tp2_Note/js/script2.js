@@ -54,8 +54,14 @@ if(navigator.geolocation){
 
 $(document).ready(function(){
 
-  $("#bouton").click(function(){
-    $("header nav").css("display","block");
+  $("header #menuTel").click(function(){
+    if($("header nav").is(':visible')){
+      $("header nav").css("display","none");
+    }else{
+      $("header nav").css("display","block");
+      $("header nav ul li").css("display","block");
+    }
+    
   });
 
 });

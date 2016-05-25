@@ -59,7 +59,8 @@ $(document).ready(function(){
       $("header nav").css("display","none");
     }else{
       $("header nav").css("display","block");
-      $("header nav ul li").css("display","block");
+      $("header nav ul li.separator").css("float","none");
+      $("header nav ul li:not(.separator)").css("float","none");
     }
     
   });

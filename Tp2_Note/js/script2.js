@@ -47,5 +47,15 @@ function maPosition(position) {
 if(navigator.geolocation){
   navigator.geolocation.getCurrentPosition(maPosition, 
     erreurPosition,{enableHighAccuracy:true}
-    );
- }
+  );
+}
+
+
+
+$(document).ready(function(){
+
+  $("#bouton").click(function(){
+    $("#menuTel").css("display","block");
+  });
+
+});

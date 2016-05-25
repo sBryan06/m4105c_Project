@@ -57,11 +57,10 @@ $(document).ready(function(){
   $("header #menuTel").click(function(){
     if($("header nav").is(':visible')){
       $("header nav").css("display","none");
+      $("header section#recherche").css("display","none");
     }else{
       $("header nav").css("display","block");
-      $("header nav ul lu").css("display","block");
-      $("header nav ul li.separator").css("float","none");
-      $("header nav ul li:not(.separator)").css("float","none");
+      $("header section#recherche").css("display","block");
     }
     
   });

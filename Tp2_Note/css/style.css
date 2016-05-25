@@ -314,6 +314,7 @@ footer{
       margin-left: 1em;
       margin-top: 0.5em;
     }
+
     header #logo{
       float: none;
       display: block;
@@ -326,6 +327,12 @@ footer{
 
     header nav{
       display: none;
+      margin-top: 1em;
+      width: 100%;
+    }
+
+    header nav ul li{
+      width: ;
     }
 
     header #iconTel {
